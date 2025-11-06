@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descobre o perfil oficial da Osvalda Homeroh, com acesso direto às suas redes sociais.">
+
+
+
+    <meta name="keywords" content="mini site, criador de conteúdo, link na bio, portfólio digital, Instagram, TikTok, redes sociais, visibilidade online, promoção digital, marketing pessoal, link único, apresentação online, criador de conteúdos Angola, site para influencers, página pessoal online, tráfego para redes sociais, site responsivo, Betinhas, Influenciador, Facebook, Link Pro">
+    <meta name="author" content="Osvalda Homeroh">
+    <meta name="robots" content="index, follow">
+
+
+      <!-- Open Graph para redes sociais -->
+    <meta property="og:title" content="Osvalda Homeroh">
+    <meta property="og:description" content="Descobre o perfil oficial da Osvalda Homeroh, com acesso direto às suas redes sociais.">
+    <meta property="og:image" content="https://https://osvaldinahomeroh.vercel.app/perfil.jpg"> <!-- imagem de destaque -->
+    <meta property="og:url" content="https://https://osvaldinahomeroh.vercel.app/">
+    <meta property="og:type" content="website">
+
+
+                                 <!-- CSS -->
+                 <link rel="stylesheet" href="contacto.css">
+
+                                 <!-- Font -->
+        <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+                                <!-- Favicon -->
+        <link rel="shortcut icon" href="link_80px.png" type="image/x-icon">
+
+
+
+
+
+                        <title>Contacto</title>
+</head>
+<body>
+
+    <div class="form-container">
+
+        <a href="home.html" class="botao-circular"><i class="fas fa-angle-left"></i></a>
+
+        <div class="form-header">
+            <div class="form-icon">
+                <i class="fas fa-comment-dots"></i>
+            </div>
+            <h1 class="form-title">FALE CONOSCO</h1>
+            <p class="form-subtitle">Preencha o formulário e entraremos em contato via WhatsApp</p>
+        </div>
+       
+        <form id="contactForm">
+            <div class="success-message" id="successMessage">
+                <i class="fas fa-check-circle"></i> Formulário enviado com sucesso! Redirecionando para WhatsApp...
+            </div>
+           
+            <div class="form-group">
+                <label for="name" class="form-label">Nome Completo *</label>
+                <input type="text" id="name" class="form-input" placeholder="Seu nome completo" required>
+                <div class="error-message" id="nameError">Por favor, insira seu nome completo</div>
+            </div>
+
+            <!-- <div class="form-group">
+                <label for="email" class="form-label">E-mail *</label>
+                <input type="email" id="email" class="form-input" placeholder="seu@email.com" required>
+                <div class="error-message" id="emailError">Por favor, insira um e-mail válido</div>
+            </div> -->
+           
+            <div class="form-group">
+                <label for="phone" class="form-label">WhatsApp *</label>
+                <input type="tel" id="phone" class="form-input" placeholder="+244 999 999 99" required>
+                <div class="error-message" id="phoneError">Por favor, insira um número válido</div>
+            </div>
+           
+            <div class="form-group">
+                <label for="service" class="form-label">Serviço de Interesse *</label>
+                <div class="select-wrapper">
+                    <select id="service" class="form-input" required>
+                        <option value="">Selecione um serviço</option>
+                        <option value="mini-site">Parceria</option>
+                        <option value="Colaboração">Colaboração</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="error-message" id="serviceError">Por favor, selecione um serviço</div>
+            </div>
+           
+            <!-- <div class="form-group">
+                <label for="budget" class="form-label">Orçamento Disponível</label>
+                <select id="budget" class="form-input">
+                    <option value="">Selecione uma faixa</option>
+                    <option value="ate-50">Até 50.000 Kz</option>
+                    <option value="50-100">50.000 - 100.000 Kz</option>
+                    <option value="100-200">100.000 - 200.000 Kz</option>
+                    <option value="acima-200">Acima de 200.000 Kz</option>
+                </select>
+            </div> -->
+           
+            <div class="form-group">
+                <label for="message" class="form-label">Mensagem *</label>
+                <textarea id="message" class="form-input" placeholder="Descreva brevemente sua necessidade..." required></textarea>
+                <div class="error-message" id="messageError">Por favor, escreva uma mensagem</div>
+            </div>
+           
+            <div class="checkbox-group">
+                <input type="checkbox" id="privacy" class="checkbox-input" required>
+                <label for="privacy" class="checkbox-label">
+                    Concordo com a <a href="#">política de privacidade</a> e aceito receber comunicações
+                </label>
+            </div>
+            <div class="error-message" id="privacyError">Você precisa aceitar os termos</div>
+           
+            <button type="submit" class="submit-btn" id="submitBtn">
+                <i class="fab fa-whatsapp"></i> ENVIAR PARA WHATSAPP
+            </button>
+        </form>
+
+        <div class="form-footer">
+            <p>Respondemos em até 24 horas</p>
+            <a href="https://wa.me/244923456789" class="whatsapp-icon" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </div>
+
+
+
+                            <script src="script.js"></script>
+                            <script src="particulas.js"></script>
+
+
+
+
+
+
+
+    <script>
+
+
+        const fakeMessages = [
+        "Nova visita registrada agora.",
+        "Usuário entrou em contato pelo WhatsApp!",
+        "Popularidade subindo",
+        "Novo seguidor vindo do Instagram!",
+        "Visitante do Brasil, Portugal, Angola Online",
+        "Seu mini site está ganhando destaque!",
+        "Nova visita registrada agora.",
+        "Usuário entrou em contato pelo WhatsApp!",
+        ];
+
+        function showRandomNotification() {
+        const notif = document.getElementById('fakeNotification');
+        const content = document.getElementById('notificationContent');
+      
+        // Mensagem aleatória
+        const randomMessage = fakeMessages[Math.floor(Math.random() * fakeMessages.length)];
+      
+        content.innerHTML = `<strong>${randomMessage}</strong><span>agora mesmo</span>`;
+      
+        notif.style.opacity = '1';
+        notif.style.transform = 'translateY(0)';
+
+        setTimeout(() => {
+          notif.style.opacity = '0';
+          notif.style.transform = 'translateY(60px)';
+        }, 5000);
+      }
+
+      // Dispara a cada 15-30 segundos
+      setInterval(() => {
+        if (Math.random() > 0.5) showRandomNotification();
+      }, 15000);
+
+
+
+
+        // Adicionando efeito sonoro futurista ao clicar nos itens do menu
+        document.querySelectorAll('.menu-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                // Criar efeito de partículas
+                const particles = document.createElement('div');
+                particles.style.position = 'absolute';
+                particles.style.width = '10px';
+                particles.style.height = '10px';
+                particles.style.background = 'radial-gradient(#00f7ff, transparent)';
+                particles.style.borderRadius = '50%';
+                particles.style.pointerEvents = 'none';
+               
+                const rect = this.getBoundingClientRect();
+                particles.style.left = (rect.left + rect.width/2 - 5) + 'px';
+                particles.style.top = (rect.top + rect.height/2 - 5) + 'px';
+               
+                document.body.appendChild(particles);
+               
+                // Animação das partículas
+                const animation = particles.animate([
+                    { transform: 'scale(1)', opacity: 1 },
+                    { transform: 'scale(3)', opacity: 0 }
+                ], {
+                    duration: 800,
+                    easing: 'ease-out'
+                });
+               
+                animation.onfinish = () => {
+                    particles.remove();
+                };
+               
+                // Para o link "Home" que é uma âncora, evitar comportamento padrão
+                if (this.getAttribute('href') === '#home') {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const testimonialsContainer = document.querySelector('.testimonials-container');
+            const testimonialCards = document.querySelectorAll('.testimonial-card');
+            const prevBtn = document.querySelector('.prev-btn');
+            const nextBtn = document.querySelector('.next-btn');
+            const dots = document.querySelectorAll('.dot');
+           
+            let currentIndex = 0;
+            const cardCount = testimonialCards.length;
+           
+            // Função para atualizar o carrossel
+            function updateCarousel() {
+                testimonialsContainer.style.transform = `translateX(-${currentIndex * 100}%)`;
+               
+                // Atualizar dots ativos
+                dots.forEach((dot, index) => {
+                    if (index === currentIndex) {
+                        dot.classList.add('active');
+                    } else {
+                        dot.classList.remove('active');
+                    }
+                });
+            }
+           
+            // Event listeners para os botões de navegação
+            nextBtn.addEventListener('click', function() {
+                currentIndex = (currentIndex + 1) % cardCount;
+                updateCarousel();
+            });
+           
+            prevBtn.addEventListener('click', function() {
+                currentIndex = (currentIndex - 1 + cardCount) % cardCount;
+                updateCarousel();
+            });
+           
+            // Event listeners para os dots
+            dots.forEach(dot => {
+                dot.addEventListener('click', function() {
+                    currentIndex = parseInt(this.getAttribute('data-index'));
+                    updateCarousel();
+                });
+            });
+           
+            // Navegação por teclado
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowRight') {
+                    currentIndex = (currentIndex + 1) % cardCount;
+                    updateCarousel();
+                } else if (e.key === 'ArrowLeft') {
+                    currentIndex = (currentIndex - 1 + cardCount) % cardCount;
+                    updateCarousel();
+                }
+            });
+           
+            // Navegação automática (opcional)
+            let autoSlide = setInterval(() => {
+                currentIndex = (currentIndex + 1) % cardCount;
+                updateCarousel();
+            }, 5000);
+           
+            // Pausar a navegação automática quando o mouse estiver sobre o carrossel
+            const testimonials = document.querySelector('.testimonials');
+            testimonials.addEventListener('mouseenter', () => {
+                clearInterval(autoSlide);
+            });
+           
+            testimonials.addEventListener('mouseleave', () => {
+                autoSlide = setInterval(() => {
+                    currentIndex = (currentIndex + 1) % cardCount;
+                    updateCarousel();
+                }, 5000);
+            });
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('contactForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const successMessage = document.getElementById('successMessage');
+        
+        // Elementos do formulário
+        const nameInput = document.getElementById('name');
+        // const emailInput = document.getElementById('email');
+        const phoneInput = document.getElementById('phone');
+        const serviceInput = document.getElementById('service');
+        const messageInput = document.getElementById('message');
+        const privacyInput = document.getElementById('privacy');
+        
+        // Máscara de telefone
+        phoneInput.addEventListener('input', function(e) {
+    let value = e.target.value.replace(/\D/g, '');
+   
+    // Formato Angola: +244 XXX XXX XXX
+    if (value.startsWith('244')) {
+        value = value.substring(3); // Remove o 244 inicial se o usuário digitar
+    }
+   
+    if (value.length <= 9) {
+        value = value.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');
+    }
+   
+    e.target.value = '+244 ' + value;
+});
+
+        // Também adicionar validação específica para Angola
+        function validateAngolanPhone(phone) {
+            const phoneRegex = /^\+244 [9][1-9]{2} [0-9]{3} [0-9]{3}$/;
+            return phoneRegex.test(phone);
+        }
+        // Validação em tempo real
+        function validateField(field, validator) {
+            field.addEventListener('blur', function() {
+                const isValid = validator(field.value);
+                const errorElement = document.getElementById(field.id + 'Error');
+                
+                if (!isValid && field.value.trim() !== '') {
+                    field.classList.add('invalid');
+                    field.classList.remove('valid');
+                    errorElement.style.display = 'block';
+                } else if (isValid) {
+                    field.classList.add('valid');
+                    field.classList.remove('invalid');
+                    errorElement.style.display = 'none';
+                } else {
+                    field.classList.remove('valid', 'invalid');
+                    errorElement.style.display = 'none';
+                }
+            });
+        }
+        
+        // Validadores
+        function validateName(name) {
+            return name.trim().split(' ').length >= 2;
+        }
+        
+        function validateEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+        
+        function validatePhone(phone) {
+            const phoneRegex = /^\(\d{2}\) \d{5}-\d{4}$/;
+            return phoneRegex.test(phone);
+        }
+
+        function validateService(service) {
+            return service !== '';
+        }
+        
+        function validateMessage(message) {
+            return message.trim().length >= 10;
+        }
+        
+        // Aplicar validações
+        validateField(nameInput, validateName);
+        validateField(emailInput, validateEmail);
+        validateField(phoneInput, validatePhone);
+        validateField(serviceInput, validateService);
+        validateField(messageInput, validateMessage);
+        
+        // Validação do checkbox de privacidade
+        privacyInput.addEventListener('change', function() {
+            const errorElement = document.getElementById('privacyError');
+            if (this.checked) {
+                errorElement.style.display = 'none';
+            }
+        });
+        
+        // Envio do formulário
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Validar todos os campos
+            const isNameValid = validateName(nameInput.value);
+            // const isEmailValid = validateEmail(emailInput.value);
+            const isPhoneValid = validatePhone(phoneInput.value);
+            const isServiceValid = validateService(serviceInput.value);
+            const isMessageValid = validateMessage(messageInput.value);
+            const isPrivacyAccepted = privacyInput.checked;
+            
+            // Mostrar erros
+            document.getElementById('nameError').style.display = isNameValid ? 'none' : 'block';
+            document.getElementById('emailError').style.display = isEmailValid ? 'none' : 'block';
+            document.getElementById('phoneError').style.display = isPhoneValid ? 'none' : 'block';
+            document.getElementById('serviceError').style.display = isServiceValid ? 'none' : 'block';
+            document.getElementById('messageError').style.display = isMessageValid ? 'none' : 'block';
+            document.getElementById('privacyError').style.display = isPrivacyAccepted ? 'none' : 'block';
+            
+            // Atualizar estados visuais
+            nameInput.classList.toggle('invalid', !isNameValid);
+            nameInput.classList.toggle('valid', isNameValid);
+            emailInput.classList.toggle('invalid', !isEmailValid);
+            emailInput.classList.toggle('valid', isEmailValid);
+            phoneInput.classList.toggle('invalid', !isPhoneValid);
+            phoneInput.classList.toggle('valid', isPhoneValid);
+            serviceInput.classList.toggle('invalid', !isServiceValid);
+            serviceInput.classList.toggle('valid', isServiceValid);
+            messageInput.classList.toggle('invalid', !isMessageValid);
+            messageInput.classList.toggle('valid', isMessageValid);
+            
+            // Se tudo estiver válido, enviar para WhatsApp
+            if (isNameValid && isEmailValid && isPhoneValid && isServiceValid && isMessageValid && isPrivacyAccepted) {
+
+                
+            // Mostrar loading
+
+
+            submitBtn.disabled = true;
+                submitBtn.classList.add('loading');
+                submitBtn.innerHTML = '';
+                
+                // Preparar mensagem para WhatsApp
+                const message = `*NOVA MENSAGEM DO SITE*
+                
+                *Nome:* ${nameInput.value}
+                // *E-mail:* ${emailInput.value}
+                *WhatsApp:* ${phoneInput.value}
+                *Serviço:* ${serviceInput.options[serviceInput.selectedIndex].text}
+                *Orçamento:* ${document.getElementById('budget').value ? document.getElementById('budget').options[document.getElementById('budget').selectedIndex].text : 'Não informado'}
+                *Mensagem:*
+                ${messageInput.value}
+                                
+                _Enviado via formulário do site_`;
+                
+                const encodedMessage = encodeURIComponent(message);
+                const whatsappURL = `https://wa.me/244923456789?text=${encodedMessage}`;
+                
+                // Mostrar mensagem de sucesso
+                setTimeout(() => {
+                    successMessage.style.display = 'block';
+                    
+                    // Redirecionar após 2 segundos
+                    setTimeout(() => {
+                        window.open(whatsappURL, '_blank');
+                        
+                        // Resetar formulário
+                        form.reset();
+                        successMessage.style.display = 'none';
+                        
+                        // Resetar estados visuais
+                        document.querySelectorAll('.form-input').forEach(input => {
+                            input.classList.remove('valid', 'invalid');
+                        });
+                        
+                        // Reativar botão
+                        submitBtn.disabled = false;
+                        submitBtn.classList.remove('loading');
+                        submitBtn.innerHTML = '<i class="fab fa-whatsapp"></i> ENVIAR PARA WHATSAPP';
+                    }, 2000);
+                }, 1000);
+            } else {
+                // Efeito de shake no botão se houver erros
+                submitBtn.style.animation = 'shake 0.5s ease';
+                setTimeout(() => {
+                    submitBtn.style.animation = '';
+                }, 500);
+            }
+        });
+        
+        // Efeito de foco suave nos inputs
+        document.querySelectorAll('.form-input').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.style.transform = 'scale(1.02)';
+            });
+            
+            input.addEventListener('blur', function() {
+                this.parentElement.style.transform = 'scale(1)';
+            });
+        });
+    });
+
+
+        // const usersOnline = Math.floor(Math.random() * 50) + 1;
+        // const onlineDiv = document.createElement("div");
+        // onlineDiv.innerText = `${usersOnline} pessoas Acessaram o site agora 🔵`;
+        // Object.assign(onlineDiv.style, {
+        //     position: "fixed", bottom: "10px", left: "10px",
+        //     background: "#111", color: "#0f0", padding: "8px 14px",
+        //     borderRadius: "8px", fontSize: "14px", zIndex: 9999
+        // });
+        // document.body.appendChild(onlineDiv);
+
+
+    </script>
+</body>
+</html>
